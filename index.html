@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Qwigley&family=Source+Sans+3:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Hot Meals</span>
+            <div class="address mt-3">
+                <p>Deliver to:
+                    <span class="logo"><img src="img/map marker.svg" alt="Logo" width="30" height="24"
+                            class="d-inline-block align-text-top"></span>
+                    <span class="location"> Location</span>
+                    <span class="street"> Ashok Nagar, Chennai-600013</span>
+                </p>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex nav-login" role="search">
+                    <button type="button" class="btn search"><span><img src="img/Search.svg"
+                                class="img-fluid"></span>Search
+                        Food</button>
+                    <button type="button" class="btn user"><span><img src="img/user.svg"
+                                class="img-fluid"></span>Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section bg-warning">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="content col">
+                    <p>Look at your fav Meals <br> <span class="near">Within a few clicks, find meals that are
+                            accessible near you</span>
+                    </p>
+
+                    <div class="alone bg-white">
+                        <button type="button" class="btn delivery text-danger"><span><img src="img/delivery.svg"
+                                    class="img-fluid"></span>Delivery</button>
+                        <button type="button" class="btn"><span><img src="img/bag.svg"
+                                    class="img-fluid "></span>Pickup</button>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><img src="img/map marker red.svg"></span>
+                        <input type="text" class="form-control addr" placeholder="Enter Your Address"
+                            aria-label="Enter Your Address" aria-describedby="basic-addon1">
+                        <button type="button" class="btn btn-danger btn-lg find-food"><img src="img/search1.svg">Find
+                            Food</button>
+                    </div>
+                </div>
+                <div class="banana col">
+                    <img src="img/banana leaf.png" class="rounded float-end banana" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="section-card">
+        <div class="container-fluid cards pt-50">
+
+            <div class="card-group items border-0">
+                <div class="card">
+                    <img src="img/de1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vada</h5>
+                        <p>30 min Delivery</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/de2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Idly</h5>
+                        <p>30 min Delivery</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/de3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">parotta</h5>
+                        <p>30 min Delivery</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/de4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kichadi</h5>
+                        <p>30 min Delivery</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section-work">
+                <div class="container-fluid">
+                    <h1>how does it work</h1>
+                    <div class="row">
+                        <div class="col d-flex ">
+                            <img src="img/discount.svg">
+                            <h2>Daily <br> Discounts</h2>
+                        </div>
+
+                        <div class="col  d-flex">
+                            <img src="img/tracking.svg">
+
+                            <h2>Live <br> Tracing</h2>
+                        </div>
+
+                        <div class="col  d-flex">
+                            <img src="img/quick.svg">
+
+                            <h2>Quick <br> Delivery</h2>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section food-search bg-body-tertiary">
+        <div class="container-fluid">
+            <h3>search food</h3>
+            <div class="row food-search-card">
+                <div class="card bg-body-tertiary border-0 text-center col" style="width: 18rem;">
+                    <img src="img/Food Photo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Dosa</p>
+                    </div>
+                </div>
+
+                <div class="card bg-body-tertiary border-0 text-center col" style="width: 18rem;">
+                    <img src="img/Food Photo (1).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Aapppm</p>
+                    </div>
+                </div>
+
+                <div class="card bg-body-tertiary border-0 text-center col" style="width: 18rem;">
+                    <img src="img/Food Photo (2).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Puttu</p>
+                    </div>
+                </div>
+
+                <div class="card bg-body-tertiary border-0 text-center col" style="width: 18rem;">
+                    <img src="img/Food Photo (3).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Idiyappam</p>
+                    </div>
+                </div>
+
+                <div class="card bg-body-tertiary border-0 text-center col" style="width: 18rem;">
+                    <img src="img/Food Photo (4).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Pongal</p>
+                    </div>
+                </div>
+
+                <div class="card bg-body-tertiary border-0 text-center col" style="width: 18rem;">
+                    <img src="img/Food Photo (5).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Veg Rice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="name d-flex flex-wrap justify-content-center">
+        <div class="card" style="width: 18rem; border: 0; ">
+            <div class="card-body">
+                <h5 class="card-title">Best deals <span class="card-title1">Crispy <br>Diffen</span></h5>
+                <p class="card-text">Enjoy the large size of Dosa. Complete<br>
+                    perfect slice of Dosa.</p>
+                <a href="#" class="btn btn-primary proceed bg-warning border-0">Proceed to order</a>
+            </div>
+        </div>
+        <img src="img/meals.png" class="img-fluid meals">
+    </div>
+
+
+    <div class="popular-items">
+        <div class="container-fluid">
+            <h1>Popular items</h1>
+            <div class="row">
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Murukku</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Paniyaram</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Seeval Murukku</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 4.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mixture</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 5.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Veg Soup</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 6.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Gulab Jamun</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 7.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Porivellangai Urundai</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 8.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Jangri</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop 9.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lattu</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="card col-auto" style="width: 18rem; border: 0;">
+                    <img src="img/pop10.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Halwa</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer bg-black">
+        <div class="container-fluid">
+            <hr>
+            <img src="img/HR (1).svg" class="img-fluid">
+            <div class="row">
+                <div class="contact col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About us</li>
+                        <li>Team</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+
+                <div class="contact col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Help & Support</li>
+                        <li>Partner with us</li>
+                        <li>Ride with us</li>
+                    </ul>
+                </div>
+
+                <div class="contact col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li>Terms & Conditions</li>
+                        <li>Refund & Cancellation</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                    </ul>
+                </div>
+                <div class="follow col">
+                    <h3>FOLLOW US</h3>
+                    <img src="img/Icons.svg" class="img-fluid">
+                    <p>Receive exclusive offers in your mailbox</p>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><img src="img/envelope.svg"></span>
+                        <input type="text" class="form-control addr" placeholder="Enter Your email"
+                            aria-label="Enter Your Address" aria-describedby="basic-addon1">
+                        <button type="button" class="btn btn-primary btn-lg bg-warning border-0">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <img src="img/HR (1).svg" class="img-fluid">
+            <p>All rights Reserved <span><img src="img/Symbol.svg" class="img-fluid"></span></p>
+            <div class="rights">
+                <img src="img/Made with  by.svg" class="img-fluid">
+                <img src="img/ThemeWagon.svg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
